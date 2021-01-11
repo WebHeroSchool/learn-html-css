@@ -4,11 +4,9 @@ body {
 .wrapper {
     margin: auto;
     width: 80%;
-    border: dashed 1px red;
 }
 
 .header {
-    border: dashed 1px red;
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
@@ -18,11 +16,9 @@ body {
     background: url(images/logo.svg);
     width: 190px;
     height: 35px;
-    border: dashed 1px red;
 }
 
 .menu {
-    border: dashed 1px red;
     display: flex;
     align-items: center;
 }
