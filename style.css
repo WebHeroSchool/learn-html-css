@@ -1,3 +1,32 @@
 body {
     font-family: Roboto;
 }
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+.header {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background: url(images/logo.svg);
+    width: 190px;
+    height: 35px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    padding: 0 13px;
+}
+
+.menu__item:last-child {
+    padding-right: 0;
+}
