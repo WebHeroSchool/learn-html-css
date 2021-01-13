@@ -1,13 +1,14 @@
 body {
     font-family: Roboto;
 }
+
 .wrapper {
     margin: auto;
     width: 80%;
 }
 
 .header {
-    padding: 40px 0;
+    padding-top: 32px;
     display: flex;
     justify-content: space-between;
 }
@@ -55,4 +56,45 @@ body {
 
 .menu__item:last-child {
     margin-right: 0;
+}
+
+.main {
+    padding: 0 63% 100% 0;
+    background: url(images/main.svg)no-repeat top right;
+    margin-top: 168px;
+    
+}
+
+.main__title {
+    font-weight: bold;
+    font-family:  'pt_serif';
+    font-size: 73px;
+    line-height: 86px;
+    margin: 0 0 40px 0;
+    padding-top: 77px;
+}
+
+.main__subtitle {
+    font: normal 22px/26px 'Roboto';
+    margin: 0 0 35px 0;
+
+} 
+
+.main__title-text_highlight {
+    background: #ECF3FF;
+}
+
+.main__button {
+    display: inline-block;
+    font: normal 18px/21px Roboto, arial, Helvetica, sans-serif;
+    padding: 18px 35px 18px 20px;
+    text-decoration: none;
+    background: #0056EC;
+    border-radius: 4px;
+    color: #fff;
+    transition: opacity .5s;
+}
+
+.main__button:hover {
+    opacity: .5;
 }
