@@ -74,8 +74,8 @@ body {
 .main__title {
     font-weight: bold;
     font-family:  'pt_serif';
-    font-size: 73px;
-    line-height: 86px;
+    font-size: 70px;
+    line-height: 84px;
     margin: 0 0 40px 0;
     padding-top: 77px;
 }
@@ -83,6 +83,7 @@ body {
 .main__subtitle {
     font: normal 22px/26px 'Roboto';
     margin: 0 0 35px 0;
+    width: 80%;
 
 } 
 
@@ -99,7 +100,18 @@ body {
     border-radius: 4px;
     color: #fff;
     transition: opacity .5s;
+    animation: change-background 2s linear infinite alternate;
 }
+
+@keyframes change-background {
+    0% {
+      background: blue;
+    }
+   
+    100% {
+      background: grey;
+    }
+  }
 
 .main__button:hover {
     opacity: .5;
