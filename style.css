@@ -158,10 +158,6 @@ body {
     }
 }
 
-@media (max-width: 1920px) {
-
-}
-
 @media (max-width: 1024px) {
     .wrapper {
         width: 100%;
@@ -208,7 +204,7 @@ body {
 
     /* стилизуем кнопку */
     .menu__btn {
-        display: flex; /* используем flex для центрирования содержимого */
+        display: flex;
         align-items: center;  /* центрируем содержимое кнопки */
         position: fixed;
         width: 26px;
